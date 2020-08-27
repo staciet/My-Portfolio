@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800PX;
+    background: url("../img/hero-image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    padding: 300px 0 0px 50px;
+    font-family: 'Oxygen bold 700', serif;
+    font-size: 60px;
+    text-align: center;
+    color: #82ac9f;
+}
+
+header h2 {
+    clear: both;
+    font-family: 'Oxygen', serif;
+    font-size:45px;
+    font-style: italic;
+    line-height: 80px;
+    text-align: center;
+    color: #5f6366;
+    padding:0px 0px 0px 50px;
+}
+
+/***** WORK *****/
+
+#Work {
+  height: 1450px;
+}
+
+#work h3 {
+    font-family: 'Oxygen', serif;
+    font-weight: bold;
+    font-size:36px;
+    text-align: center;
+    color:#2F4F4F;
+}
+
+#work h4 {
+    font-family: 'Oxygen', serif;
+    font-weight: bold;
+    font-size:24px;
+    color:#2F4F4F;
+}
+
+#work p {
+    font-size:24px;
+    color:#2F4F4F;
+    line-height:40px;
+}
+
+#work img {
+    border: 12px solid #ffffff;
+}
+
+#work h4 #rogue-title{
+    margin-top: 100px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: 650PX;
+  background: #82ac9f;
+}
+
+#about h3 {
+    font-family: 'Oxygen', serif;
+    font-weight: bold;
+    font-size:36px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#about p {
+    font-size:24px;
+    color:#ffffff;
+    line-height:40px;
+}
+
+#about img {
+    height: 450px;
+}
+
+#about .half-width {
+    float: right;
+}
+
+/***** CONTACT *****/
+
+#Contact {
+  height: 400px;
+}
+
+#contact h3 {
+    font-family: 'Oxygen', serif;
+    font-weight: bold;
+    font-size:36px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#contact h4 {
+    font-size:28px;
+    color:#ffffff;
+    line-height:40px;
+}
+
+#contact p {
+    font-size:24px;
+    color:#ffffff;
+    line-height:40px;
+}
+
+#contact .third-width {
+    text-align: center;
+}
+
+#contact a {
+  margin: 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  background: #2F4F4F;
+}
+
+#contact #copyright {
+  font-size:18px;
+  color:#ffffff;
+  line-height:40px;
+  text-align: center;
+}
