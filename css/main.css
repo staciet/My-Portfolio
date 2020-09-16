@@ -53,8 +53,8 @@ header h2 {
 
 /***** WORK *****/
 
-#Work {
-  height: 1450px;
+#work {
+  height: 1020px;
 }
 
 #work h3 {
@@ -79,7 +79,7 @@ header h2 {
 }
 
 #work img {
-    border: 12px solid #ffffff;
+    border: 2px solid #808080;
 }
 
 #work h4 #rogue-title{
@@ -108,7 +108,7 @@ header h2 {
 }
 
 #about img {
-    height: 450px;
+    height: 400px;
 }
 
 #about .half-width {
